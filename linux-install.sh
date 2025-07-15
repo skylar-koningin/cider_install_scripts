@@ -1,10 +1,10 @@
 #!/bin/bash
 
-export PACMAN="$HOME/cider_install_scripts/Linux/Pacman"
-export APTITUDE="$HOME/cider_install_scripts/Linux/Aptitude"
-export DNF="$HOME/cider_install_scripts/Linux/DNF"
-export ZYPPER="$HOME/cider_install_scripts/Linux/Zypper"
-export OTHERDISTRO="$HOME/cider_install_scripts/Linux/OtherDistro"
+export PACMAN="$SUDO_HOME/cider_install_scripts/Linux/Pacman"
+export APTITUDE="$SUDO_HOME/cider_install_scripts/Linux/Aptitude"
+export DNF="$SUDO_HOME/cider_install_scripts/Linux/DNF"
+export ZYPPER="$SUDO_HOME/cider_install_scripts/Linux/Zypper"
+export OTHERDISTRO="$SUDO_HOME/cider_install_scripts/Linux/OtherDistro"
 
 distro_choose() {
 echo "Choose the package manager your system uses."
@@ -32,7 +32,7 @@ sudo pacman -U cider-v3.0.0-linux-x64.pkg.tar.zst
 sudo pacman -S cider
 echo "Cider has been installed!"
 sudo rm $PACMAN/cider-v3.0.0-linux-x64.pkg.tar.zst
-cd $HOME/
+cd $SUDO_HOME/
 exit 0
 }
 
@@ -45,7 +45,7 @@ sudo apt update && sudo apt upgrade && sudo dpkg -i cider-v3.0.2-linux-x64.deb
 sudo apt install cider
 echo "Cider has been installed!"
 sudo rm $APTITUDE/cider-v3.0.2-linux-x64.deb
-cd $HOME/
+cd $SUDO_HOME/
 exit 0
 }
 
@@ -59,18 +59,18 @@ sudo rpm -i cider cider-v3.0.2-linux-x64.rpm
 sudo dnf cider
 echo "Cider has been installed!"
 sudo rm $DNF/cider cider-v3.0.2-linux-x64.rpm
-cd $HOME/
+cd $SUDO_HOME/
 exit 0
 }
 
 otherdistro_script() {
-cd $HOME/cider_install_scripts/Linux/OtherDistro/
+cd $SUDO_HOME/cider_install_scripts/Linux/OtherDistro/
 chmod +x $OTHERDISTRO/cider-v3.0.2-linux-x64.AppImage
-mkdir $HOME/Cider
-sudo mv $OTHERDISTRO/512.png $HOME/Cider
-sudo mv $OTHERDISTRO/cider-v3.0.2-linux-x64.AppImage $HOME/Cider
-sudo mv $OTHERDISTRO/cider.desktop $HOME/.local/share/applications/
-chmod +x $HOME/.local/share/applications/cider.desktop
+mkdir $SUDO_HOME/Cider
+sudo mv $OTHERDISTRO/512.png $SUDO_HOME/Cider
+sudo mv $OTHERDISTRO/cider-v3.0.2-linux-x64.AppImage $SUDO_HOME/Cider
+sudo mv $OTHERDISTRO/cider.desktop $SUDO_HOME/.local/share/applications/
+chmod +x $SUDO_HOME/.local/share/applications/cider.desktop
 exit 0
 }
 

@@ -67,7 +67,7 @@ otherdistro_script() {
 cd $SUDO_HOME/cider_install_scripts/Linux/OtherDistro/
 chmod +x $OTHERDISTRO/cider-v3.0.2-linux-x64.AppImage
 mkdir $SUDO_HOME/Cider
-sudo mv $OTHERDISTRO/512.png $SUDO_HOME/Cider
+sudo mv $OTHERDISTRO/cider.png $SUDO_HOME/Cider
 sudo mv $OTHERDISTRO/cider-v3.0.2-linux-x64.AppImage $SUDO_HOME/Cider
 sudo mv $OTHERDISTRO/cider.desktop $SUDO_HOME/.local/share/applications/
 chmod +x $SUDO_HOME/.local/share/applications/cider.desktop

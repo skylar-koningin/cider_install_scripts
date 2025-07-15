@@ -46,8 +46,8 @@ Gentoo: `sudo emerge --ask dev-vcs/git`
 - MacOS and Linux: run `cd ./cider_install_scripts.git/`
 
 ## 4. Run the script to install Cider for your system
-- Windows: run `windows_installer.bat`
-- MacOS: run `macos_installer.sh`
-- Linux: run `linux_installer.sh`
+- Windows: run `windows-installer.bat`
+- MacOS: run `macos-installer.sh`
+- Linux: run `linux-installer.sh`
 
 ## 5. After the install finished, sign in to Cider and Apple Music, and you should be good to go!

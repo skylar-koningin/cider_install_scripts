@@ -39,7 +39,7 @@ sudo apt update && sudo apt upgrade && sudo dpkg -i cider-v3.0.2-linux-x64.deb
 sudo apt install cider
 echo "Cider has been installed!"
 sudo rm ~/cider_install_scripts/Linux/Aptitude/cider-v3.0.2-linux-x64.deb
-cd ~//
+cd ~/
 exit 0
 }
 
@@ -53,18 +53,18 @@ sudo rpm -i cider cider-v3.0.2-linux-x64.rpm
 sudo dnf Cider
 echo "Cider has been installed!"
 sudo rm ~/cider_install_scripts/Linux/DNF/cider-v3.0.2-linux-x64.rpm
-cd ~//
+cd ~/
 exit 0
 }
 
 otherdistro_script() {
-cd ~//cider_install_scripts/Linux/OtherDistro/
+cd ~/cider_install_scripts/Linux/OtherDistro/
 chmod +x ~/cider_install_scripts/Linux/OtherDistro/cider-v3.0.2-linux-x64.AppImage
-mkdir ~//Cider
+mkdir ~/Cider
 sudo mv ~/cider_install_scripts/Linux/OtherDistro/cider.png ~//Cider
 sudo mv ~/cider_install_scripts/Linux/OtherDistro/cider-v3.0.2-linux-x64.AppImage ~//Cider
 sudo mv ~/cider_install_scripts/Linux/OtherDistro/cider.desktop ~//.local/share/applications/
-chmod +x ~//.local/share/applications/cider.desktop
+chmod +x ~/.local/share/applications/cider.desktop
 exit 0
 }
 

@@ -2,7 +2,7 @@
 
 export PACMAN="$HOME/cider_install_scripts/Linux/Pacman"
 export APTITUDE="$HOME/cider_install_scripts/Linux/Aptitude"
-export DNF="$HOME/cider_install_scripts/Linux/DNF/"
+export DNF="$HOME/cider_install_scripts/Linux/DNF"
 export ZYPPER="$HOME/cider_install_scripts/Linux/Zypper"
 export OTHERDISTRO="$HOME/cider_install_scripts/Linux/OtherDistro"
 

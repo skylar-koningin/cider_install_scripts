@@ -1,9 +1,10 @@
 #!/bin/bash
 
-export PACMAN="$HOME/cider_install_scripts/Linux/ArchLinux/"
-export APTITUDE="$HOME/cider_install_scripts/Linux/Debian/"
-export DNF="$HOME/cider_install_scripts/Linux/Fedora/"
-export OTHERDISTRO="$HOME/cider_install_scripts/Linux/OtherDistro/"
+export PACMAN="$HOME/cider_install_scripts/Linux/Pacman"
+export APTITUDE="$HOME/cider_install_scripts/Linux/Aptitude"
+export DNF="$HOME/cider_install_scripts/Linux/DNF/"
+export ZYPPER="$HOME/cider_install_scripts/Linux/Zypper"
+export OTHERDISTRO="$HOME/cider_install_scripts/Linux/OtherDistro"
 
 distro_choose() {
 echo "Choose the package manager your system uses."

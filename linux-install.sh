@@ -56,7 +56,7 @@ sudo rpm --import https://repo.cider.sh/RPM-GPG-KEY
 sudo mv $DNF/cider.repo /etc/yum.repos.d
 sudo dnf makecache
 sudo rpm -i cider cider-v3.0.2-linux-x64.rpm
-sudo dnf cider
+sudo dnf Cider
 echo "Cider has been installed!"
 sudo rm $DNF/cider-v3.0.2-linux-x64.rpm
 cd $SUDO_HOME/

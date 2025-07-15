@@ -28,6 +28,13 @@ cd $HOME/
 exit 0
 }
 
+cpu_choose
+
+if ! [[ "$num" =~ ^[0-2]+$ ]]; then
+echo "Invalid option, coose again..."
+cpu_choose
+fi
+
 if [[ "$num" =~ ^[0]+$ ]]; then
 echo "Exiting..."
 exit 0

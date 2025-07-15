@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 export INTEL="$HOME/cider_install_scripts/MacOS/Intel"
 export SILICON="$HOME/cider_install_scripts/MacOS/Silicon"

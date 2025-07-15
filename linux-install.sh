@@ -66,9 +66,11 @@ sudo mv ./cider.desktop $HOME/.local/share/applications/
 chmod +x $HOME/.local/share/applications/cider.desktop
 exit 0
 }
- 
+
+distro_choose
+
 if ! [[ "$num" =~ ^[0-4]+$ ]]; then
-echo "Choose again..."
+echo "Invalid option, choose again..."
 distro_choose
 fi
 

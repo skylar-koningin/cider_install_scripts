@@ -58,7 +58,7 @@ sudo dnf makecache
 sudo rpm -i cider cider-v3.0.2-linux-x64.rpm
 sudo dnf cider
 echo "Cider has been installed!"
-sudo rm $DNF/cider cider-v3.0.2-linux-x64.rpm
+sudo rm $DNF/cider-v3.0.2-linux-x64.rpm
 cd $SUDO_HOME/
 exit 0
 }

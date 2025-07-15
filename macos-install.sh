@@ -7,30 +7,26 @@ read -p "Choose a CPU (choose 0 to abort): " num
 }
 
 intel_script() {
-cd ~/cider_install_scripts/MacOS/Intel/
+cd $HOME/cider_install_scripts/MacOS/Intel/
 hdiutil attach ./cider-v3.0.2-macos-x64.dmg
 sudo cp -rf "/Volumes/Cider Installer (x64)/Cider.app" /Applications
 sudo hdiutil detach "/Volumes/Cider Installer (x64)/"
 echo "Cider has been installed!"
-cd ~/
+sudo rm ./cider-v3.0.2-macos-x64.dmg
+cd $HOME/
 exit 0
 }
 
 silicon_script() {
-cd ~/cider_install_scripts/MacOS/Silicon/
+cd $HOME/cider_install_scripts/MacOS/Silicon/
 hdiutil attach ./cider-v3.0.2-macos-arm64.dmg
 sudo cp -rf "/Volumes/Cider Installer (arm64)/Cider.app" /Applications
 sudo hdiutil detach "/Volumes/Cider Installer (x64)/"
 echo "Cider has been installed!"
-cd ~/
+sudo rm ./cider-v3.0.2-macos-arm64.dmg
+cd $HOME/
 exit 0
 }
-
-
-if ! [[ "$num" =~ ^[0-2]+$ ]]; then
-echo "Choose again..."
-distro_choose
-fi
 
 if [[ "$num" =~ ^[0]+$ ]]; then
 echo "Exiting..."

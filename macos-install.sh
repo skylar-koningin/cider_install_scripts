@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export INTEL="$HOME/cider_install_scripts/MacOS/Intel"
-export SILICON="$HOME/cider_install_scripts/MacOS/Silicon"
+export INTEL="$SUDO_HOME/cider_install_scripts/MacOS/Intel"
+export SILICON="$SUDO_HOME/cider_install_scripts/MacOS/Silicon"
 
 cpu_choose() {
 echo "Choose CPU your Mac has"
@@ -11,24 +11,24 @@ read -p "Choose a CPU (choose 0 to abort): " num
 }
 
 intel_script() {
-cd $HOME/cider_install_scripts/MacOS/Intel/
+cd $SUDO_HOME/cider_install_scripts/MacOS/Intel/
 hdiutil attach $INTEL/cider-v3.0.2-macos-x64.dmg
 sudo cp -rf "/Volumes/Cider Installer (x64)/Cider.app" /Applications
 sudo hdiutil detach "/Volumes/Cider Installer (x64)/"
 echo "Cider has been installed!"
 sudo rm $INTEL/cider-v3.0.2-macos-x64.dmg
-cd $HOME/
+cd $SUDO_HOME/
 exit 0
 }
 
 silicon_script() {
-cd $HOME/cider_install_scripts/MacOS/Silicon/
+cd $SUDO_HOME/cider_install_scripts/MacOS/Silicon/
 hdiutil attach $SILICON/cider-v3.0.2-macos-arm64.dmg
 sudo cp -rf "/Volumes/Cider Installer (arm64)/Cider.app" /Applications
 sudo hdiutil detach "/Volumes/Cider Installer (x64)/"
 echo "Cider has been installed!"
 sudo rm $SILICON/cider-v3.0.2-macos-arm64.dmg
-cd $HOME/
+cd $SUDO_HOME/
 exit 0
 }
 

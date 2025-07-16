@@ -9,6 +9,7 @@ mac_cpu() {
     read -p "Select a CPU (choose 0 to abort): " os
 }
 
+mac_cpu
 
 if [ $os = 0 ]; then
     echo "Aborting install..."

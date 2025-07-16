@@ -10,6 +10,7 @@ package_manager() {
     read -p "Select an Operating system (choose 0 to abort): " pm
 }
 
+package_manager
 
 if [ $pm = 0 ]; then
     echo "Aborting install..."

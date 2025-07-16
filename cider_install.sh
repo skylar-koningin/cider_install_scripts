@@ -9,6 +9,7 @@ operating_system() {
     read -p "Select an Operating system (choose 0 to abort): " os
 }
 
+operating_system
 
 if [ $os = 0 ]; then
     echo "Aborting install..."

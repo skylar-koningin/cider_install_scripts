@@ -1,10 +1,25 @@
 @echo off
 
-net session >nul 2>&1
-if %errorLevel% neq 0 (
-    echo Requesting admin privileges...
-    powershell -Command "Start-Process '%~f0' -Verb runAs"
-    exit /b
-)
+clear
 
-python main.py
+:operating_system
+    echo "What operating system are you on?"
+    echo "1. Windows"
+    set /p os="Select an Operating system (choose 0 to abort): "
+}
+
+IF "%os%" "=" "0" (
+  echo "Aborting install..."
+  exit
+
+) ELSE (
+  IF "%os%" "=" "1" (
+    cd "%CD%\windows"
+    windows.bat
+
+  ) ELSE (
+    echo "Invalid option, choose again."
+    CALL :operating_system
+
+  )
+)

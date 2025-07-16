@@ -8,10 +8,11 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - MacOS Silicon
 - apt-based distros (Debian, Ubuntu, Linux Mint, Pop!_OS, etc)
 - dnf-based distros (Fedora, RHEL, CentOS, etc)
+- zypper-based distros (openSUSE) [STILL UNTESTED]
 - pacman-based distros (Arch Linux, EndeavourOS, Manjaro, etc)
 
 # WIP Operating Systems
-- OpenSUSE (it is RPM-based, but it uses zypper, and Cider doesnt explicitly say it works )
+- none rn, create an issue if you would like me to add any
 
 # How to install and use
 ## 1. Install Git
@@ -19,6 +20,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - MacOS: ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git``
 - apt: `sudo apt install git`
 - dnf: `sudo dnf install git`
+- zypper: `sudo zypper install git`
 - pacman: `sudo pacman -S git`
 
 ## 2. Clone the repository

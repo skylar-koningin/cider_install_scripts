@@ -12,7 +12,7 @@ mac_cpu() {
 
 if [ $os = 0 ]; then
     echo "Aborting install..."
-    exit(0)
+    exit 0
 
 elif [ $os = 1 ]; then
     cd ./intel
@@ -24,6 +24,6 @@ elif [ $os = 2 ]; then
 
 else
     echo "Invalid option, choose again."
-    mac_cpu()
+    mac_cpu
 
 fi

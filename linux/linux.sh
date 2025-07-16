@@ -13,7 +13,7 @@ package_manager() {
 
 if [ $pm = 0 ]; then
     echo "Aborting install..."
-    exit(0)
+    exit 0
 
 elif [ $pm = 1 ]; then
     cd ./apt
@@ -29,5 +29,5 @@ elif [ $pm = 3 ]; then
 
 else
     echo "Invalid option, choose again."
-    package_manager()
+    package_manager
 fi

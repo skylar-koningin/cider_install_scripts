@@ -12,7 +12,7 @@ operating_system() {
 
 if [ $os = 0 ]; then
     echo "Aborting install..."
-    exit(0)
+    exit 0
 
 elif [ $os = 1 ]; then
     cd ./macos
@@ -24,6 +24,6 @@ elif [ $os = 2 ]; then
 
 else
     echo "Invalid option, choose again."
-    operating_system()
+    operating_system
 
 fi

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 distro_choose() {
 echo "Choose the package manager your system uses."
 echo "1. Pacman (ArchLinux-based distros)"
@@ -31,7 +32,7 @@ exit 0
 }
 
 aptitude_script() {
-sudo apt update && sudo apt upgrade
+sudo apt install curl && sudo apt update && sudo apt upgrade
 cd ~/cider_install_scripts/Linux/Aptitude
 curl -fsSL https://repo.cider.sh/APT-GPG-KEY | sudo gpg --dearmor -o /usr/share/keyrings/cider-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/cider-archive-keyring.gpg] https://repo.cider.sh/apt stable main" | sudo tee /etc/apt/sources.list.d/cider.list

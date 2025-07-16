@@ -1,22 +1,21 @@
-from linux.apt.apt import apt_install
-from linux.dnf.dnf import dnf_install
-from linux.pacman.pacman import pacman_install
+from linux.apt_install.apt import apt_install
+from linux.dnf_install.dnf import dnf_install
+from linux.pacman_install.pacman import pacman_install
 
 
 def linux_os():
     import sys
 
     print("Selected Linux...")
-    sys.path.append("./apt")
-    sys.path.append("./dnf")
-    sys.path.append("./pacman")
+    sys.path.append("./apt_install")
+    sys.path.append("./dnf_install")
+    sys.path.append("./pacman_install")
 
     def operating_system():
         print("What is your package manager?")
         print("1. apt")
         print("2. dnf")
-        print("3. zypper")
-        print("4. pacman")
+        print("3. pacman")
 
     def get_valid_input():
         while True:
@@ -38,15 +37,15 @@ def linux_os():
         exit()
 
     if pm == 1:
-        from apt import apt
+        from apt_install import apt
         apt_install()
 
     elif pm == 2:
-        from dnf import dnf
+        from dnf_install import dnf
         dnf_install()
 
     elif pm == 3:
-        from pacman import pacman
+        from pacman_install import pacman
         pacman_install()
 
     else:

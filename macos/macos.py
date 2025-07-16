@@ -1,5 +1,5 @@
-from macos.intel.intel import intel_cpu
-from macos.silicon.silicon import silicon_cpu
+from macos.intel_cpu.intel import intel_cpu
+from macos.silicon_cpu.silicon import silicon_cpu
 
 
 def macos_os():
@@ -32,11 +32,11 @@ def macos_os():
         exit()
 
     elif cpu == 1:
-        from intel import intel
+        from intel_cpu import intel
         intel_cpu()
 
     elif cpu == 2:
-        from silicon import silicon
+        from silicon_cpu import silicon
         silicon_cpu()
 
     else:

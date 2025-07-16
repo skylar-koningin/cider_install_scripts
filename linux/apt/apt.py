@@ -1,5 +1,3 @@
-import subprocess
-
 def apt_install():
     print("Selected apt package manager")
     import subprocess
@@ -18,7 +16,7 @@ def apt_install():
             run_cmd(['sudo', 'apt', 'update'])
             run_cmd(['sudo', 'apt', 'upgrade', '-y'])
 
-            cider_dir = os.path.expanduser('~/cider_install_scripts/linux/aptitude')
+            cider_dir = os.path.expanduser('~/cider_install_scripts/linux/apt')
             os.chdir(cider_dir)
 
             gpg_key = subprocess.check_output(['curl', '-fsSL', 'https://repo.cider.sh/APT-GPG-KEY'], text=True)

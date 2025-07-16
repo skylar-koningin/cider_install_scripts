@@ -15,7 +15,8 @@ def linux_os():
         print("What is your package manager?")
         print("1. apt")
         print("2. dnf")
-        print("3. pacman")
+        print("3. zypper")
+        print("4. pacman")
 
     def get_valid_input():
         while True:

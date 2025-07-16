@@ -11,7 +11,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - pacman-based distros (Arch Linux, EndeavourOS, Manjaro, etc)
 
 # WIP Operating Systems
-- OpenSUSE (it is RPM-based, but it uses zypper, and Cider doesnt explicitly say it works )
+- OpenSUSE (idk how to set it up, so if anyone wants to create one, please submit a pull request)
 
 # How to install and use
 ## 1. Install Git

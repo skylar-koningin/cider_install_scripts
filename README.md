@@ -1,42 +1,25 @@
 # DISCLAIMER
 This is not a free way to use Cider, you must already have a license to use it.
-For Cider devs and legal: I am not sharing a way to use Cider for free and I recognize that Cider is owned by you wonderful people. I am making this mainly for myself because I like to distrohop and I want a quick way to install it.
+For Cider devs and legal: I am not sharing a way to use Cider for free and I recognize that Cider is owned by you wonderful people. I am making this mainly for myself because I like to distrohop and I want a quick way to install it. The only reason Im uploading it to Github is because I feel that some people would also find it useful.
 
 # Current OS Support
 - Windows
 - MacOS Intel
 - MacOS Silicon
-- Pacman-based distros (Arch Linux, EndeavourOS, Manjaro, etc)
-- Aptitude-based distros (Debian, Ubuntu, Linux Mint, Pop!_OS, etc)
-- RPM-based distros that use DNF (Fedora, RHEL, CentOS, AlmaLinux, etc)
-- Any distro that can use AppImage files
+- apt-based distros (Debian, Ubuntu, Linux Mint, Pop!_OS, etc)
+- dnf-based distros (Fedora, RHEL, CentOS, etc)
+- pacman-based distros (Arch Linux, EndeavourOS, Manjaro, etc)
 
 # WIP Operating Systems
-- OpenSUSE
+- OpenSUSE (it is RPM-based, but it uses zypper, and Cider doesnt explicitly say it works )
 
 # How to install and use
 ## 1. Install Git
-- Windows:
-
-`winget install git`
-
-
-- MacOS:
-
-``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git``
-
-
--Linux
-
-Arch: `sudo pacman -S git`
-
-Debian/Ubuntu: `sudo apt install git`
-
-Fedora/CentOS: `sudo dnf install git`
-
-OpenSUSE: `sudo zypper install git`
-
-Gentoo: `sudo emerge --ask dev-vcs/git`
+- Windows: `winget install git`
+- MacOS: ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git``
+- apt: `sudo apt install git`
+- dnf: `sudo dnf install git`
+- pacman: `sudo pacman -S git`
 
 ## 2. Clone the repository
 - Run `git clone https://github.com/skylarkoningin/cider_install_scripts.git` (this will work cross-platform)
@@ -45,9 +28,8 @@ Gentoo: `sudo emerge --ask dev-vcs/git`
 - Windows: run `cd .\cider_install_scripts.git\`
 - MacOS and Linux: run `cd ./cider_install_scripts.git/`
 
-## 4. Run the script to install Cider for your system
-- Windows: run `windows-installer.bat`
-- MacOS: run `macos-installer.sh`
-- Linux: run `linux-installer.sh`
+## 4. Run the shell script/batch file to start the install process
+- Windows: `.\cider_install.bat`
+- MacOS and Linux: `./cider_install.sh`
 
-## 5. After the install finished, sign in to Cider and Apple Music, and you should be good to go!
+## 5. After the install finishes, sign in to Cider and Apple Music, and you should be good to go!

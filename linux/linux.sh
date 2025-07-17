@@ -7,7 +7,6 @@ package_manager() {
     echo "2. dnf"
     echo "3. zypper"
     echo "4. pacman"
-    echo "5. nix"
     read -p "Select an Operating system (choose 0 to abort): " pm
 }
 
@@ -32,10 +31,6 @@ elif [ $pm = 3 ]; then
 elif [ $pm = 4 ]; then
     cd ./pacman
     sudo sh pacman.sh
-
-elif [ $pm = 5 ]; then
-    cd ./nix-env
-    sudo sh nix-env.sh
 
 else
     echo "Invalid option, choose again."

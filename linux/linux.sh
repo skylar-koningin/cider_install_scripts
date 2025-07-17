@@ -6,7 +6,8 @@ package_manager() {
     echo "What package manager is on your Linux distro?"
     echo "1. apt"
     echo "2. dnf"
-    echo "3. pacman"
+    echo "3. zypper"
+    echo "4. pacman"
     read -p "Select an Operating system (choose 0 to abort): " pm
 }
 
@@ -25,6 +26,10 @@ elif [ $pm = 2 ]; then
     ./dnf.sh
 
 elif [ $pm = 3 ]; then
+    cd ./zypper
+    ./zypper.sh
+
+elif [ $pm = 4 ]; then
     cd ./pacman
     ./pacman.sh
 

@@ -4,8 +4,9 @@ clear
 
 operating_system() {
     echo "What operating system are you on?"
-    echo "1. MacOS"
-    echo "2. Linux"
+    echo "1. Windows"
+    echo "2. MacOS"
+    echo "3. Linux"
     read -p "Select an Operating system (choose 0 to abort): " os
 }
 
@@ -16,10 +17,14 @@ if [ $os = 0 ]; then
     exit 0
 
 elif [ $os = 1 ]; then
+    cd ./windows
+    ./windows.sh
+
+elif [ $os = 2 ]; then
     cd ./macos
     ./macos.sh
 
-elif [ $os = 2 ]; then
+elif [ $os = 3 ]; then
     cd ./linux
     ./linux.sh
 

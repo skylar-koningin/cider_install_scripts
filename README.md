@@ -8,10 +8,11 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - MacOS Silicon
 - apt-based distros (Debian, Ubuntu, Linux Mint, Pop!_OS, etc)
 - dnf-based distros (Fedora, RHEL, CentOS, etc)
+- zypper-based distros (OpenSUSE, SUSE Linux Enterprise)
 - pacman-based distros (Arch Linux, EndeavourOS, Manjaro, etc)
 
 # WIP Operating Systems
-- OpenSUSE (idk how to set it up, so if anyone wants to create one, please submit a pull request)
+- none rn (create an issue if you would like me to add support)
 
 # How to install and use
 ## 1. Install Git

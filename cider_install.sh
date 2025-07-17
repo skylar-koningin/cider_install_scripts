@@ -18,7 +18,7 @@ if [ $os = 0 ]; then
 
 elif [ $os = 1 ]; then
     cd ./windows
-    ./windows.sh
+    ./windows.bat
 
 elif [ $os = 2 ]; then
     cd ./macos

@@ -19,23 +19,23 @@ if [ $pm = 0 ]; then
 
 elif [ $pm = 1 ]; then
     cd ./apt
-    ./apt.sh
+    sudo sh apt.sh
 
 elif [ $pm = 2 ]; then
     cd ./dnf
-    ./dnf.sh
+    sudo sh dnf.sh
 
 elif [ $pm = 3 ]; then
     cd ./zypper
-    ./zypper.sh
+    sudo sh zypper.sh
 
 elif [ $pm = 4 ]; then
     cd ./pacman
-    ./pacman.sh
+    sudo sh pacman.sh
 
 elif [ $pm = 5 ]; then
     cd ./nix-env
-    ./nix-env.sh
+    sudo sh nix-env.sh
 
 else
     echo "Invalid option, choose again."

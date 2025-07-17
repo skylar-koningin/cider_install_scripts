@@ -16,11 +16,11 @@ if [ $os = 0 ]; then
 
 elif [ $os = 1 ]; then
     cd ./intel
-    ./intel.sh
+    sudo sh intel.sh
 
 elif [ $os = 2 ]; then
     cd ./silicon
-    ./silicon.sh
+    sudo sh silicon.sh
 
 else
     echo "Invalid option, choose again."

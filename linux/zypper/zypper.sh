@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "Selected zypper..."
 sudo rpm --import https://repo.cider.sh/RPM-GPG-KEY
 sudo tee /etc/zypp/repos.d/cider.repo << 'EOF'
 [cidercollective]

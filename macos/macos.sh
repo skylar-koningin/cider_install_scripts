@@ -1,7 +1,6 @@
 #!/bin/sh
 
-clear
-
+echo "Selected MacOS..."
 mac_cpu() {
     echo "What CPU does your Mac have?"
     echo "1. Intel"

@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "Selected pacman..."
 curl -s https://repo.cider.sh/ARCH-GPG-KEY | sudo pacman-key --add -
 sudo pacman-key --lsign-key A0CD6B993438E22634450CDD2A236C3F42A61682
 sudo tee -a /etc/pacman.conf << 'EOF'

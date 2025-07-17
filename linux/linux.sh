@@ -1,7 +1,6 @@
 #!/bin/sh
 
-echo "Selected Linux as operating system"
-
+echo "Selected Linux..."
 package_manager() {
     echo "What package manager is on your Linux distro?"
     echo "1. apt"

@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "Selected dnf..."
 sudo rpm --import https://repo.cider.sh/RPM-GPG-KEY
 sudo tee /etc/yum.repos.d/cider.repo << 'EOF'
 [cidercollective]

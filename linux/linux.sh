@@ -7,7 +7,7 @@ package_manager() {
     echo "2. dnf"
     echo "3. zypper"
     echo "4. pacman"
-    echo "5. nix-env"
+    echo "5. nix"
     read -p "Select an Operating system (choose 0 to abort): " pm
 }
 

@@ -22,15 +22,18 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - dnf: `sudo dnf install git`
 - pacman: `sudo pacman -S git`
 
+## 1.5. Switch to "Git Bash"
+**THIS STEP IS WINDOWS ONLY**
+- Click on the arrow next to the tab, then click "Git bash". This allows you to run sh files on Windows, which makes the installer a lot easier to code lol
+
 ## 2. Clone the repository
 - Run `git clone https://github.com/skylarkoningin/cider_install_scripts.git` (this will work cross-platform)
 
 ## 3. Enter the new repository folder
-- Windows: run `cd .\cider_install_scripts.git\`
+- Windows: run `cd cider_install_scripts.git\`
 - MacOS and Linux: run `cd ./cider_install_scripts.git/`
 
 ## 4. Run the shell script/batch file to start the install process
-- Windows: `.\cider_install.bat`
-- MacOS and Linux: `./cider_install.sh`
+- `sh cider_install.sh` (works cross-platform)
 
 ## 5. After the install finishes, sign in to Cider and Apple Music, and you should be good to go!

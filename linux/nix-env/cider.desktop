@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Cider
+Exec=appimage-run ~/.local/bin/cider/cider-v3.0.2-linux-x64.AppImage
+Icon=~/.local/bin/cider/cider.png
+Comment=Apple Music for Linux
+Categories=Multimedia;
+Terminal=false

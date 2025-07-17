@@ -10,6 +10,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - dnf-based distros (Fedora, RHEL, CentOS, etc)
 - zypper-based distros (OpenSUSE, SUSE Linux Enterprise)
 - pacman-based distros (Arch Linux, EndeavourOS, Manjaro, etc)
+- nix-based distros (NixOS)
 
 # WIP Operating Systems
 - none rn (create an issue if you would like me to add support)
@@ -20,6 +21,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - MacOS: ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git``
 - apt: `sudo apt install git`
 - dnf: `sudo dnf install git`
+- zypper: `sudo zypper install git`
 - pacman: `sudo pacman -S git`
 
 ## 1.5. Switch to "Git Bash"

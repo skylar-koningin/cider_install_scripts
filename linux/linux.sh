@@ -10,29 +10,33 @@ package_manager() {
     read -p "Select an Operating system (choose 0 to abort): " pm
 }
 
+checker() {
+    if [ $pm = 0 ]; then
+        echo "Aborting install..."
+        exit 0
+
+    elif [ $pm = 1 ]; then
+        cd ./apt
+        sudo sh apt.sh
+
+    elif [ $pm = 2 ]; then
+        cd ./dnf
+        sudo sh dnf.sh
+
+    elif [ $pm = 3 ]; then
+        cd ./zypper
+        sudo sh zypper.sh
+
+    elif [ $pm = 4 ]; then
+        cd ./pacman
+        sudo sh pacman.sh
+
+    else
+        echo "Invalid option, choose again."
+        package_manager
+        checker
+    fi
+}
+
 package_manager
-
-if [ $pm = 0 ]; then
-    echo "Aborting install..."
-    exit 0
-
-elif [ $pm = 1 ]; then
-    cd ./apt
-    sudo sh apt.sh
-
-elif [ $pm = 2 ]; then
-    cd ./dnf
-    sudo sh dnf.sh
-
-elif [ $pm = 3 ]; then
-    cd ./zypper
-    sudo sh zypper.sh
-
-elif [ $pm = 4 ]; then
-    cd ./pacman
-    sudo sh pacman.sh
-
-else
-    echo "Invalid option, choose again."
-    package_manager
-fi
+checker

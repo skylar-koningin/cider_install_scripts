@@ -18,7 +18,7 @@ if [ $os = 0 ]; then
 
 elif [ $os = 1 ]; then
     cd ./windows
-    sudo ./windows.bat
+    sudo sh windows.sh
 
 elif [ $os = 2 ]; then
     cd ./macos

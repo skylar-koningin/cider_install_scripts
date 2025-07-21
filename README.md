@@ -6,11 +6,10 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - Windows
 - MacOS Intel
 - MacOS Silicon
-- apt-based distros (Debian, Ubuntu, Linux Mint, Pop!_OS, etc)
-- dnf-based distros (Fedora, RHEL, CentOS, etc)
-- zypper-based distros (OpenSUSE, SUSE Linux Enterprise)
-- pacman-based distros (Arch Linux, EndeavourOS, Manjaro, etc)
-- nix-based distros (NixOS)
+- apt-based distros (Tested on Debian 13, Kali Linux, Linux Mint, PikaOS)
+- dnf-based distros (Tested on AlmaLinux, CentOS, Fedora 42)
+- zypper-based distros (Tested on openSUSE Tumbleweed)
+- pacman-based distros (Tested on Arch Linux, CachyOS, Manjaro)
 
 # WIP Operating Systems
 - none rn (create an issue if you would like me to add support)

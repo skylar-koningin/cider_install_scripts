@@ -12,5 +12,5 @@ SigLevel = Required TrustedOnly
 Server = https://repo.cider.sh/arch
 EOF
 sudo pacman -Sy
-sudo pacman -U ./cider-v3.0.0-linux-x64.pkg.tar.zst
 sudo pacman -S cider
+sudo pacman -U ./cider-v3.0.0-linux-x64.pkg.tar.zst

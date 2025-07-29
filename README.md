@@ -15,6 +15,9 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - none rn (create an issue if you would like me to add support)
 
 # How to install and use
+## 0. Download the binaries from taproom.cider.sh (Windows and MacOS Required, Linux is unaffected)
+- the only reason we have this step is because it was requested by Elijah (the creator) because he is iffy on sharing the binares for Windows and MacOS (please DO NOT send them hate)
+
 ## 1. Install Git
 - Windows: `winget install git`
 - MacOS: ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git``

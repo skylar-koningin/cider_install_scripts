@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Selected dnf..."
-curl -LO https://github.com/skylarkoningin/cider_install_scripts/releases/download/curl/cider-v3.0.2-linux-x64.rpm
+mv ~/Downloads/cider-v3.0.2-linux-x64.rpm ~/cider_install_scripts/linux/dnf
 sudo rpm --import https://repo.cider.sh/RPM-GPG-KEY
 sudo tee /etc/yum.repos.d/cider.repo << 'EOF'
 [cidercollective]

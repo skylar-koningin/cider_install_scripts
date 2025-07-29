@@ -37,4 +37,3 @@ checker() {
 
 operating_system
 checker
-

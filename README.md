@@ -17,9 +17,10 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 # How to install and use
 ## 0. Download the binaries from taproom.cider.sh (Windows and MacOS Required, Linux is unaffected)
 - the only reason we have this step is because it was requested by Elijah (the creator) because they are iffy on sharing the binares for Windows and MacOS (please DO NOT send them hate)
+- https://taproom.cider.sh
 
 ## 1. Install Git
-- Windows: `winget install git`
+- Windows: `winget.exe install git`
 - MacOS: ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git``
 - apt: `sudo apt install git`
 - dnf: `sudo dnf install git`
@@ -28,16 +29,21 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 
 ## 1.5. Switch to "Git Bash"
 **THIS STEP IS WINDOWS ONLY**
-- Click on the arrow next to the tab, then click "Git bash". This allows you to run sh files on Windows, which makes the installer a lot easier to code lol
+- Close the open Terminal window
+- Reopen Terminal, then click on the arrow next to the tab, then click "Git bash". This allows you to run sh files on Windows, which makes the installer a lot easier to code lol
 
 ## 2. Clone the repository
 - Run `git clone https://github.com/skylarkoningin/cider_install_scripts.git` (this will work cross-platform)
 
 ## 3. Enter the new repository folder
-- Windows: run `cd cider_install_scripts.git\`
-- MacOS and Linux: run `cd ./cider_install_scripts.git/`
+- Run `cd cider_install_scripts/`
+
+## 3.5. Enable sudo
+**THIS STEP IS WINDOWS ONLY**
+- Click on "Find a setting" and type developer
+- Select "Developer settings", turn on "Developer Mode" and "Enable sudo" (The script WILL NOT WORK if you don't do that)
 
 ## 4. Run the shell script/batch file to start the install process
-- `sh cider_install.sh` (works cross-platform)
+- `sudo sh cider_install.sh` (works cross-platform)
 
 ## 5. After the install finishes, sign in to Cider and Apple Music, and you should be good to go!

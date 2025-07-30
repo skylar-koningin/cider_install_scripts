@@ -17,7 +17,7 @@ checker() {
 
     elif [ $os = 1 ]; then
         cd ./windows
-        windows.bat
+        ./windows.bat
 
     elif [ $os = 2 ]; then
         cd ./macos

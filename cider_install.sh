@@ -17,7 +17,7 @@ checker() {
 
     elif [ $os = 1 ]; then
         cd ./windows
-        sudo sh windows.sh
+        windows.bat
 
     elif [ $os = 2 ]; then
         cd ./macos

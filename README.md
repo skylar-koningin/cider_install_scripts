@@ -38,11 +38,6 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 ## 3. Enter the new repository folder
 - Run `cd cider_install_scripts/`
 
-## 3.5. Enable sudo
-**THIS STEP IS WINDOWS ONLY**
-- Click on "Find a setting" and type developer
-- Select "Developer settings", turn on "Developer Mode" and "Enable sudo" (The script WILL NOT WORK if you don't do that)
-
 ## 4. Run the shell script/batch file to start the install process
 - `sudo sh cider_install.sh` (works cross-platform)
 

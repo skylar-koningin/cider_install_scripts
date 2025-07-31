@@ -13,4 +13,4 @@ echo "[Desktop Entry]
     Icon=~/CiderApp/cider.png
     Terminal=false
     Type=Application
-    Categories=Multimedia;" > ~./local/share/applications/CiderApp.desktop
+    Categories=Multimedia;" > ~/.local/share/applications/CiderApp.desktop

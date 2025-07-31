@@ -13,13 +13,13 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 - dnf-based distros (Tested on Fedora 42 and RHEL 10)
 - zypper-based distros (Tested on openSUSE Tumbleweed)
 - pacman-based distros (Tested on Arch Linux)
+- xbps-based distros (Untested, should theoretically work with Void Linux)
 
 # WIP Operating Systems
 - Gentoo
 - NixOS
 - Slackware 
 - Solus
-- Void Linux (**WILL POTENTIALLY ONLY WORK WITH GLIBC VOID INSTALLS AS APPIMAGES WONT RUN ON MUSL**)
 
 ~~literally only here cuz i have them in vms lol~~
 

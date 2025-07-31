@@ -28,7 +28,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 
 ## 1. Install Git
 - Windows: `winget.exe install git`
-- MacOS: ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git``
+- MacOS: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git`
 - apt: `sudo apt install git`
 - dnf: `sudo dnf install git`
 - zypper: `sudo zypper install git`

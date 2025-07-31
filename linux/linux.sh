@@ -7,6 +7,7 @@ package_manager() {
     echo "2. dnf"
     echo "3. zypper"
     echo "4. pacman"
+    echo "5. xbps"
     read -p "Select an Operating system (choose 0 to abort): " pm
 }
 
@@ -30,6 +31,10 @@ checker() {
     elif [ $pm = 4 ]; then
         cd ./pacman
         sh pacman.sh
+
+    elif [ $pm = 5 ]; then
+        cd ./xbps
+        sh xbps.sh
 
     else
         echo "Invalid option, choose again."

@@ -36,6 +36,10 @@ checker() {
         cd ./xbps
         sh xbps.sh
 
+    elif [ $pm = 6 ]; then
+        cd ./emerge
+        sh emerge.sh
+
     else
         echo "Invalid option, choose again."
         package_manager

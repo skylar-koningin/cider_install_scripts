@@ -19,6 +19,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - Slackware 
 - Solus
 - Void Linux
+
 ~~literally only here cuz i have them in vms lol~~
 
 # How to install and use

@@ -8,11 +8,4 @@ mkdir ~/CiderApp
 mkdir ~/.local/applications
 mv ./cider-v3.0.2-linux-x64.AppImage ~/CiderApp
 mv ./cider.png ~/CiderApp
-touch ~/.local/applications/CiderApp.desktop
-echo "[Desktop Entry]
-    Name=Cider
-    Exec=~/CiderApp/cider-v3.0.2-linux-x64.AppImage
-    Icon=~/CiderApp/cider.png
-    Terminal=false
-    Type=Application
-    Categories=Multimedia;" >> ~/.local/share/applications/CiderApp.desktop
+mv ./CiderApp.desktop ~/.local/share/applications

@@ -1,0 +1,7 @@
+[Desktop Entry]
+    Name=Cider
+    Exec=~/CiderApp/cider-v3.0.2-linux-x64.AppImage
+    Icon=~/CiderApp/cider.png
+    Terminal=false
+    Type=Application
+    Categories=Multimedia;

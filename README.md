@@ -13,7 +13,6 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 
 # WIP Operating Systems
 - Alpine
-- FreeBSD (maybe if it supports AppImage files)
 - Gentoo
 - NixOS
 - Slackware 

@@ -17,19 +17,19 @@ checker() {
 
     elif [ $pm = 1 ]; then
         cd ./apt
-        sudo sh apt.sh
+        sh apt.sh
 
     elif [ $pm = 2 ]; then
         cd ./dnf
-        sudo sh dnf.sh
+        sh dnf.sh
 
     elif [ $pm = 3 ]; then
         cd ./zypper
-        sudo sh zypper.sh
+        sh zypper.sh
 
     elif [ $pm = 4 ]; then
         cd ./pacman
-        sudo sh pacman.sh
+        sh pacman.sh
 
     else
         echo "Invalid option, choose again."

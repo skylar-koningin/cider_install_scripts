@@ -15,11 +15,11 @@ checker() {
 
     elif [ $os = 1 ]; then
         cd ./intel
-        sudo sh intel.sh
+        sh intel.sh
 
     elif [ $os = 2 ]; then
         cd ./silicon
-        sudo sh silicon.sh
+        sh silicon.sh
 
     else
         echo "Invalid option, choose again."

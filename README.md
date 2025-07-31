@@ -2,6 +2,9 @@
 This is not a free way to use Cider, you must already have a license to use it.
 For Cider devs and legal: I am not sharing a way to use Cider for free and I recognize that Cider is owned by you wonderful people. I am making this mainly for myself because I like to distrohop and I want a quick way to install it. The only reason Im uploading it to Github is because I feel that some people would also find it useful.
 
+## Credits
+the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is downloaded from https://taproom.cider.sh/assets and is licensed under a (idk) license
+
 # Current OS Support
 - Windows
 - MacOS Intel
@@ -22,7 +25,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 ~~literally only here cuz i have them in vms lol~~
 
 # How to install and use
-## 0. Download the binaries from taproom.cider.sh (Windows and MacOS Required, Linux is unaffected)
+## 0. Download the binaries from taproom.cider.sh
 - the only reason we have this step is because it was requested by Elijah (the creator) because they are iffy on sharing the binares for Windows and MacOS (please DO NOT send them hate)
 - https://taproom.cider.sh
 

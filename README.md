@@ -34,7 +34,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 
 ## 2. Clone the repository
 - Run `git clone https://github.com/skylar-koningin/cider_install_scripts.git` (this will work cross-platform)
-- You can also run `git clone https://codeberg.org/skylar-koningin/cider_install_scripts`
+- You can also run `git clone https://codeberg.org/skylar-koningin/cider_install_scripts` (secondary repo in case github is down)
 
 ## 3. Enter the new repository folder
 - Run `cd cider_install_scripts/`

@@ -33,7 +33,8 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - Reopen Terminal, then click on the arrow next to the tab, then click "Git bash". This allows you to run sh files on Windows, which makes the installer a lot easier to code lol
 
 ## 2. Clone the repository
-- Run `git clone https://github.com/skylarkoningin/cider_install_scripts.git` (this will work cross-platform)
+- Run `git clone https://github.com/skylar-koningin/cider_install_scripts.git` (this will work cross-platform)
+- You can also run `git clone https://codeberg.org/skylar-koningin/cider_install_scripts`
 
 ## 3. Enter the new repository folder
 - Run `cd cider_install_scripts/`

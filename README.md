@@ -12,7 +12,14 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - pacman-based distros (Tested on Arch Linux)
 
 # WIP Operating Systems
-- none rn (create an issue if you would like me to add support)
+- Alpine
+- FreeBSD (maybe if it supports AppImage files)
+- Gentoo
+- NixOS
+- Slackware 
+- Solus
+- Void Linux
+~~literally only here cuz i have them in vms lol~~
 
 # How to install and use
 ## 0. Download the binaries from taproom.cider.sh (Windows and MacOS Required, Linux is unaffected)

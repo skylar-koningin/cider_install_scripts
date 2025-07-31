@@ -15,12 +15,11 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 - pacman-based distros (Tested on Arch Linux)
 
 # WIP Operating Systems
-- Alpine
 - Gentoo
 - NixOS
 - Slackware 
 - Solus
-- Void Linux
+- Void Linux (**WILL POTENTIALLY ONLY WORK WITH GLIBC VOID INSTALLS AS APPIMAGES WONT RUN ON MUSL**)
 
 ~~literally only here cuz i have them in vms lol~~
 
@@ -36,6 +35,7 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 - dnf: `sudo dnf install git`
 - zypper: `sudo zypper install git`
 - pacman: `sudo pacman -S git`
+- xbps: `sudo xbps-install git`
 
 ## 1.5. Switch to "Git Bash"
 **THIS STEP IS WINDOWS ONLY**

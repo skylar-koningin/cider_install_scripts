@@ -36,11 +36,11 @@ checker() {
         cd ./nix
         sh nix.sh
 
-    elif [ $pm = 6 ]
+    elif [ $pm = 6 ]; then
         echo "Currently no support for any other distros, sorry"
         package_manager
         checker
-        
+
     else
         echo "Invalid option, choose again."
         package_manager

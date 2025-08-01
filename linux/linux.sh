@@ -33,8 +33,12 @@ checker() {
         sh pacman.sh
 
     elif [ $pm = 5 ]; then
-        cd ./other
-        sh other.sh
+        cd ./nix
+        sh nix.sh
+
+    elif [ $pm = 6 ]
+        echo "Currently no support for any other distros, sorry"
+        exit 0
 
     else
         echo "Invalid option, choose again."

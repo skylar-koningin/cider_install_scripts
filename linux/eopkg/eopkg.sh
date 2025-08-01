@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Selected other..."
+echo "Selected eopkg..."
 mv ~/Downloads/cider-v3.0.2-linux-x64.AppImage ~/cider_install_scripts/linux/other
 chmod +x ./cider-v3.0.2-linux-x64.AppImage
 mkdir ~/CiderApp

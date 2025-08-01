@@ -16,7 +16,6 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 - xbps-based distros (Untested, should theoretically work with Void Linux)
 
 # WIP Operating Systems
-- Gentoo
 - NixOS
 - Slackware 
 - Solus

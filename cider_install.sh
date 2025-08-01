@@ -7,6 +7,7 @@ operating_system() {
     echo "1. Windows"
     echo "2. MacOS"
     echo "3. Linux"
+    echo "4. Other"
     read -p "Select an Operating system (choose 0 to abort): " os
 }
 
@@ -27,8 +28,13 @@ checker() {
         cd ./linux
         sh linux.sh
 
+    elif [ $os = 4 ]; then
+        echo "This script currently does not support any other operating systems :("
+        echo "If you would like us to add support, create an issue with the request tag!"
+        echo "Have a nice day!"
+        exit 0
     else
-        echo "Invalid option, choose again."
+        echo "Invalid option, please choose again."
         operating_system
         checker
 

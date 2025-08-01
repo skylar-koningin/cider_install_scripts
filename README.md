@@ -17,7 +17,6 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 - nix-based distros (Tested on NixOS, it just takes a lil to open lol)
 
 # WIP Operating Systems
-- Slackware 
 - Solus
 
 ~~literally only here cuz i have them in vms lol~~

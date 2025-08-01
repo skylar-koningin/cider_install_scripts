@@ -24,6 +24,7 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 ## 0. Download the binaries from taproom.cider.sh
 - the only reason we have this step is because it was requested by Elijah (the creator) because they are iffy on sharing the binares for Windows and MacOS (please DO NOT send them hate)
 - https://taproom.cider.sh
+- **NOTE** this step can be stepped on Linux distros that use apt, dnf, zypper, or pacman because it adds the repositories to download Cider from, its just generally reccomended that you still do this step to ensure nothing goes wrong
 
 ## 1. Install Git
 - Windows: `winget.exe install git`

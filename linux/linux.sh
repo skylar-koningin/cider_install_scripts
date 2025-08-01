@@ -49,7 +49,7 @@ checker() {
         exit 0
 
     else
-        echo "Invalid option, choose again."
+        echo "Invalid option, please choose again."
         package_manager
         checker
     fi

@@ -49,6 +49,6 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 - Run `cd cider_install_scripts/`
 
 ## 4. Run the shell script to start the install process
-- `sudo sh cider_install.sh` (works cross-platform)
+- `sh cider_install.sh` (works cross-platform)
 
 ## 5. After the install finishes, sign in to Cider and Apple Music, and you should be good to go!

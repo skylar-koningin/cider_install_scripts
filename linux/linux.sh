@@ -8,7 +8,8 @@ package_manager() {
     echo "3. zypper"
     echo "4. pacman"
     echo "5. nix"
-    echo "6. other"
+    echo "6. eopkg"
+    echo "7. other"
     read -p "Select a package manager (choose 0 to abort): " pm
 }
 
@@ -38,8 +39,14 @@ checker() {
         sh nix.sh
 
     elif [ $pm = 6 ]; then
-        cd ./other
-        sh other.sh
+        cd ./eopkg
+        sh eopkg.sh
+
+    elif [ $pm = 7 ]; then
+        echo "This script currently does not support any other distros :("
+        echo "If you would like us to add support, create an issue with the request tag!"
+        echo "Have a nice day!"
+        exit 0
 
     else
         echo "Invalid option, choose again."

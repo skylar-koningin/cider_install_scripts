@@ -6,9 +6,9 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is downloaded from https://taproom.cider.sh/assets and is licensed under a (idk) license
 
 # Current OS Support
-- Windows
-- MacOS Intel
-- MacOS Silicon
+- Windows (Tested on Windows 11)
+- MacOS Intel (Tested on MacOS Sequioa)
+- MacOS Silicon (Untested, but its exactly the same code as the Intel version)
 - apt-based distros (Tested on Debian 13 and Linux Mint; also works on ChromeOS with the "Linux development environment" enabled)
 - dnf-based distros (Tested on Fedora 42 and RHEL 10)
 - zypper-based distros (Tested on openSUSE Tumbleweed)

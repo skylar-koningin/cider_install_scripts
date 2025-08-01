@@ -15,11 +15,10 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 - pacman-based distros (Tested on Arch Linux)
 - xbps-based distros (Untested, should theoretically work with Void Linux)
 - nix-based distros (Tested on NixOS, it just takes a lil to open lol)
+- eopkg-based distros
 
 # WIP Operating Systems
-- Solus
-
-~~literally only here cuz i have them in vms lol~~
+- nothing rn (request in "Issues" tab)
 
 # How to install and use
 ## 0. Download the binaries from taproom.cider.sh
@@ -35,6 +34,7 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 - pacman: `sudo pacman -S git`
 - xbps: `sudo xbps-install git`
 - nix: `nix-env -i git`
+- eopkg: `sudo eopkg install git`
 
 ## 1.5. Switch to "Git Bash"
 **THIS STEP IS WINDOWS ONLY**

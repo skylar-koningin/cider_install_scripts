@@ -40,7 +40,7 @@ checker() {
         echo "Currently no support for any other distros, sorry"
         package_manager
         checker
-
+        
     else
         echo "Invalid option, choose again."
         package_manager

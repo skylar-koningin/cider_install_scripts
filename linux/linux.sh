@@ -7,7 +7,8 @@ package_manager() {
     echo "2. dnf"
     echo "3. zypper"
     echo "4. pacman"
-    echo "5. other"
+    echo "5. nix"
+    echo "6. other"
     read -p "Select a package manager (choose 0 to abort): " pm
 }
 

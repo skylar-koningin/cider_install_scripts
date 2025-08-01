@@ -38,7 +38,8 @@ checker() {
 
     elif [ $pm = 6 ]
         echo "Currently no support for any other distros, sorry"
-        exit 0
+        package_manager
+        checker
 
     else
         echo "Invalid option, choose again."

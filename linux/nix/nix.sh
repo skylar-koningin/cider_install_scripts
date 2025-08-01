@@ -12,4 +12,4 @@ echo "Exec=appimage-run /home/$USER/CiderApp/cider-v3.0.2-linux-x64.AppImage" >>
 echo "Icon=/home/$USER/CiderApp/cider.png" >> ./CiderApp.desktop
 chmod +x ./CiderApp.desktop
 mv ./CiderApp.desktop ~/.local/share/applications
-~/.local/share/CiderApp.desktop
+~/.local/share/applicatons/CiderApp.desktop

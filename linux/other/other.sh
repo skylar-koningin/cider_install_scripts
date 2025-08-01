@@ -1,7 +1,7 @@
 #!/bin/sh
 
-echo "Selected xbps..."
-mv ~/Downloads/cider-v3.0.2-linux-x64.AppImage ~/cider_install_scripts/linux/xbps
+echo "Selected other..."
+mv ~/Downloads/cider-v3.0.2-linux-x64.AppImage ~/cider_install_scripts/linux/other
 chmod +x ./cider-v3.0.2-linux-x64.AppImage
 mkdir ~/CiderApp
 mkdir ~/.local/applications

@@ -8,8 +8,16 @@ mkdir ~/CiderApp
 mkdir ~/.local/share/applications
 mv ./cider-v3.0.2-linux-x64.AppImage ~/CiderApp
 mv ./cider.png ~/CiderApp
-echo -n "Exec=/home/$USER/CiderApp/cider-v3.0.2-linux-x64.AppImage" >> ./CiderApp.desktop
-echo -n "Icon=/home/$USER/CiderApp/cider.png" >> ./CiderApp.desktop
+cat << EOF > CiderApp.desktop
+[Desktop Entry]
+    Name=Cider
+    Icon=~/CiderApp/cider.png
+    Terminal=false
+    Type=Application
+    Categories=Multimedia;
+    Exec=/home/$USER/CiderApp/cider-v3.0.2-linux-x64.AppImage
+    Icon=/home/$USER/CiderApp/cider.png
+EOF
 chmod +x ./CiderApp.desktop
 mv ./CiderApp.desktop ~/.local/share/applications
 gtk-launch CiderApp.desktop

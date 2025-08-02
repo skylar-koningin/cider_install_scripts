@@ -2,7 +2,7 @@
 
 echo "Selected apk (Alpine)..."
 doas apk install gcompat
-mv ~/Downloads/cider-v3.0.2-linux-x64.AppImage ~/cider_install_scripts/linux/other
+mv ~/Downloads/cider-v3.0.2-linux-x64.AppImage ~/cider_install_scripts/linux/apk
 chmod +x ./cider-v3.0.2-linux-x64.AppImage
 mkdir ~/CiderApp
 mkdir ~/.local/share/applications

@@ -9,7 +9,8 @@ package_manager() {
     echo "4. pacman"
     echo "5. nix"
     echo "6. eopkg"
-    echo "7. other"
+    echo "7. apk"
+    echo "8. other"
     read -p "Select a package manager (choose 0 to abort): " pm
 }
 
@@ -43,6 +44,10 @@ checker() {
         sh eopkg.sh
 
     elif [ $pm = 7 ]; then
+        cd ./apk
+        sh apk.sh
+
+    elif [ $pm = 8 ]; then
         echo "This script currently does not support any other distros :("
         echo "If you would like us to add support, create an issue with the request tag!"
         echo "Have a nice day!"

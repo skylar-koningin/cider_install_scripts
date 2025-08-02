@@ -10,4 +10,4 @@ mv ./cider.png ~/CiderApp
 echo -n "Exec=/home/$USER/CiderApp/cider-v3.0.2-linux-x64.AppImage" >> ./CiderApp.desktop
 echo -n "Icon=/home/$USER/CiderApp/cider.png" >> ./CiderApp.desktop
 mv ./CiderApp.desktop ~/.local/share/applications
-~/.local/share/applications/CiderApp.desktop
+gtk-launch CiderApp.desktop

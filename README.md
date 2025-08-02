@@ -19,7 +19,6 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 
 # WIP Operating Systems
 - Alpine
-- Gentoo
 
 # How to install and use
 ## 0. Download the binaries from taproom.cider.sh

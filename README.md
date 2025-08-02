@@ -34,7 +34,7 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based distros is down
 - zypper: `sudo zypper install git`
 - pacman: `sudo pacman -S git`
 - xbps: `sudo xbps-install git`
-- nix: `nix profile install nixpkgs#git` or add "git" to your configuration.nix
+- nix: `nix-env -i git` or add "git" to your configuration.nix
 - eopkg: `sudo eopkg install git`
 
 ## 1.5. Switch to "Git Bash"

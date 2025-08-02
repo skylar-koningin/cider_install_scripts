@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Selected nix..."
-nix profile install nixpkgs#appimage-run
+nix-env -i appimage-run
 mv ~/Downloads/cider-v3.0.2-linux-x64.AppImage ~/cider_install_scripts/linux/nix
 chmod +x ./cider-v3.0.2-linux-x64.AppImage
 mkdir ~/CiderApp

@@ -1,19 +1,15 @@
 # DISCLAIMER
-This is not a free way to use Cider, you must already have a license to use it.
-For Cider devs and legal: I am not sharing a way to use Cider for free and I recognize that Cider is owned by you wonderful people. I am making this mainly for myself because I like to distrohop and I want a quick way to install it. The only reason Im uploading it to Github is because I feel that some people would also find it useful.
 
-## Credits
-the Cider icon used in any non-apt, dnf, zypper, or pacman based linux distros is downloaded from https://taproom.cider.sh/assets and is licensed under a copyleft license
+This is not a free way to use Cider — you must already have a license to use it.
 
-## License
-This code is dual-licensed under Apache 2.0 and BSD 3-Clause. If you use this code, you must comply with both licenses.
-`SPDX-License-Identifier: Apache-2.0 AND BSD-3-Clause`
+For Cider devs and legal: I am not sharing a way to use Cider for free and I recognize that Cider is owned by you wonderful people. I am making this mainly for myself because I like to distrohop and I want a quick way to install it. The only reason I'm uploading it to GitHub is because I feel that some people would also find it useful.
 
 # Current OS Support
+
 - Windows (Tested on Windows 11)
-- MacOS Intel (Tested on MacOS Sequioa)
-- MacOS Silicon (Untested, but its exactly the same code as the Intel version)
-- apt-based distros (Tested on Debian 13 and Linux Mint; also works on ChromeOS with the "Linux development environment" enabled)
+- MacOS Intel (Tested on macOS Sequoia)
+- MacOS Silicon (Untested, but same code as Intel version)
+- apt-based distros (Tested on Debian 13 and Linux Mint; also works on ChromeOS with the "Linux development environment")
 - dnf-based distros (Tested on Fedora 42 and RHEL 10)
 - zypper-based distros (Tested on openSUSE Tumbleweed)
 - pacman-based distros (Tested on Arch Linux)
@@ -21,16 +17,22 @@ This code is dual-licensed under Apache 2.0 and BSD 3-Clause. If you use this co
 - eopkg-based distros (Tested on Solus)
 
 # WIP Operating Systems
+
 - Alpine
 
-# How to install and use
+# How to Install and Use
+
 ## 0. Download the binaries from taproom.cider.sh
-- the only reason we have this step is because it was requested by Elijah (the creator) because they are iffy on sharing the binares for Windows and MacOS (please DO NOT send them hate)
+
+This step is required only for Windows and macOS users. Linux users using apt, dnf, zypper, or pacman can skip this step, but it's recommended for consistency.
+
 - https://taproom.cider.sh
-- **NOTE** this step can be skipped on Linux distros that use apt, dnf, zypper, or pacman because it adds the repositories to download Cider from, its just generally reccomended that you still do this step to ensure nothing goes wrong
+
+*Requested by Elijah (creator of Cider). Please do not host or distribute Cider binaries.*
 
 ## 1. Install Git
-- Windows: `winget.exe install git`
+
+- Windows: `winget install git`
 - MacOS: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git`
 - apt: `sudo apt install git`
 - dnf: `sudo dnf install git`
@@ -40,18 +42,35 @@ This code is dual-licensed under Apache 2.0 and BSD 3-Clause. If you use this co
 - nix: `nix-env -i git` or add "git" to your configuration.nix
 - eopkg: `sudo eopkg install git`
 
-## 1.5. Switch to "Git Bash"
-**THIS STEP IS WINDOWS ONLY**
-- Close the open Terminal window
-- Reopen Terminal, then click on the arrow next to the tab, then click "Git bash". This allows you to run sh files on Windows, which makes the installer a lot easier to code lol
+## 1.5. Switch to Git Bash (Windows Only)
 
-## 2. Clone the repository
-- Run `git clone https://github.com/skylar-koningin/cider_install_scripts.git` (this will work cross-platform)
+- Close the terminal
+- Reopen Git Bash from the Git installation (enables `.sh` scripts on Windows)
 
-## 3. Enter the new repository folder
-- Run `cd cider_install_scripts/`
+## 2. Clone the Repository
 
-## 4. Run the shell script to start the install process
-- `sh cider_install.sh` (works cross-platform)
+`git clone https://github.com/skylar-koningin/cider_install_scripts.git`
 
-## 5. After the install finishes, sign in to Cider and Apple Music, and you should be good to go!
+## 3. Enter the Repository
+
+`cd cider_install_scripts/`
+
+## 4. Run the Installer
+
+`sh cider_install.sh`
+
+## 5. Finish Setup
+
+After installation, open Cider, sign in to your Apple account, and enjoy.
+
+---
+
+## Licensing
+
+Skylar's Cider Install Scripts is licensed under both the Apache License 2.0 and the BSD 3-Clause License.
+You must comply with both licenses. See the `LICENSE` and `NOTICE` files for full details.
+
+Assets from the Cider Collective (https://cider.sh and https://taproom.cider.sh/assets) are used under their respective open-source licenses.
+**Cider binaries are not included** in this repository and must be downloaded separately as per the project's guidelines.
+
+No affiliation or endorsement by Cider or the Cider Collective is implied.

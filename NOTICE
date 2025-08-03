@@ -1,0 +1,28 @@
+Skylar's Cider Install Scripts  
+Copyright 2025 Skylar Koningin
+
+This product includes software developed by Skylar Koningin.
+
+Licensed under the Apache License, Version 2.0 AND the BSD 3-Clause License.
+
+You may not use the name "Skylar Koningin" to endorse or promote products derived  
+from this software without specific prior written permission.
+
+---
+
+Third-Party Components and Attributions:
+
+This product includes non-code assets from the **Cider Collective**:
+
+- Website: https://cider.sh  
+- Assets: https://taproom.cider.sh/assets  
+
+These assets are used in accordance with their original open-source licenses.  
+No Cider binaries are included in this repository.  
+Users must download Cider binaries separately from the official source.
+
+No affiliation or endorsement by Cider Collective is implied.
+
+---
+
+Downstream users and redistributors must retain this NOTICE file as required by Section 4(d) of the Apache License, Version 2.0.

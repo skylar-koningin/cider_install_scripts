@@ -28,7 +28,7 @@ This step is required only for Windows and macOS users. Linux users using apt, d
 
 - https://taproom.cider.sh
 
-*Stated by Elijah (creator of Cider): "We generally don't recommend re-distributing Cider binaries on GitHub, as Cider is a paid product this could lead to unintended interpretation if people don't read into it all the way ... people combing Google can easily skip this information if SEO decided to bump entries."*
+*Stated by Elijah (creator of Cider): "We generally don't recommend re-distributing Cider binaries on GitHub, as Cider is a paid product this could lead to unintended interpretation if people don't read into it all the way ... people combing Google can easily skip this information if SEO decided to bump entries."* (I asked if I should remove the binaries, and he said that he would reccomend it until they had public ones)
 Please don't send Elijah or Cider devs any hate, and I can completely understand their reasoning.
 
 ## 1. Install Git

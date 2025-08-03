@@ -18,7 +18,7 @@ checker() {
 
     elif [ $os = 1 ]; then
         cd ./windows
-        ./windows.bat
+        powershell -ExecutionPolicy Bypass -File "./windows.ps1"
 
     elif [ $os = 2 ]; then
         cd ./macos

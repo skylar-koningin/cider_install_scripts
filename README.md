@@ -8,7 +8,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 
 - Windows (Tested on Windows 11)
 - MacOS Intel (Tested on macOS Sequoia)
-- MacOS Silicon (Untested, but same code as Intel version)
+- MacOS Silicon (Untested (Due to my lack of a Silicon Mac, for now), but same code as Intel version)
 - apt-based distros (Tested on Debian 13 and Linux Mint; also works on ChromeOS with the "Linux development environment")
 - dnf-based distros (Tested on Fedora 42 and RHEL 10)
 - zypper-based distros (Tested on openSUSE Tumbleweed)
@@ -18,13 +18,20 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 
 # WIP Operating Systems
 
-- Alpine
+- none rn
+
+### Currently Requesting Support
+
+- Void Linux (glibc and musl)
+- Alpine Linux
+- Gentoo (glibc and musl)
+- FreeBSD
 
 # How to Install and Use
 
 ## 0. Download the binaries from https://taproom.cider.sh
 
-This step is required only for Windows and macOS users. Linux users using apt, dnf, zypper, or pacman can skip this step, but it's recommended for consistency.
+Linux users using apt, dnf, zypper, or pacman can skip this step, but it's recommended not to for consistency.
 
 ### Explanation for this step:
 
@@ -50,7 +57,7 @@ Please don't send Elijah or Cider devs any hate, and I can completely understand
 
 ## 2. Clone the Repository
 
-`git clone https://github.com/skylar-koningin/cider_install_scripts.git`
+`git clone https://github.com/skylar-koningin/cider_install_scripts`
 
 ## 3. Enter the Repository
 
@@ -72,6 +79,6 @@ Skylar's Cider Install Scripts is licensed under both the Apache License 2.0 and
 You must comply with both licenses. See the `LICENSE` and `NOTICE` files for full details.
 
 Assets from the Cider Collective (https://cider.sh and https://taproom.cider.sh/assets) are used under their respective open-source licenses.
-**Cider binaries are not included** in this repository and must be downloaded separately as per Elijah's request.
+**Cider binaries are not included in this repository and must be downloaded separately as per Elijah's request.**
 
 No affiliation or endorsement by Cider or the Cider Collective is implied.

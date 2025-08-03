@@ -13,7 +13,6 @@ the Cider icon used in any non-apt, dnf, zypper, or pacman based linux distros i
 - dnf-based distros (Tested on Fedora 42 and RHEL 10)
 - zypper-based distros (Tested on openSUSE Tumbleweed)
 - pacman-based distros (Tested on Arch Linux)
-- xbps-based distros (Untested, should theoretically work with Void Linux glibc; **NOTE** Void Linux musl isn't supported yet, but I am working on getting it to work)
 - nix-based distros (Tested on NixOS)
 - eopkg-based distros (Tested on Solus)
 

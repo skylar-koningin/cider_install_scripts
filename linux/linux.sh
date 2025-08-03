@@ -10,8 +10,7 @@ package_manager() {
     echo "5. nix"
     echo "6. eopkg"
     echo "7. apk"
-    echo "8. xbps"
-    echo "9. other"
+    echo "8. other"
     read -p "Select a package manager (choose 0 to abort): " pm
 }
 
@@ -47,10 +46,6 @@ checker() {
     elif [ $pm = 7 ]; then
         cd ./apk
         sh apk.sh
-
-    elif [ $pm = 8 ]; then
-        cd ./xbps
-        sh xbps.sh
 
     elif [ $pm = 9 ]; then
         echo "This script currently does not support any other distros :("

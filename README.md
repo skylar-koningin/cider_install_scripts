@@ -26,9 +26,10 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 
 This step is required only for Windows and macOS users. Linux users using apt, dnf, zypper, or pacman can skip this step, but it's recommended for consistency.
 
-- https://taproom.cider.sh
+### Explanation for this step:
 
-*Stated by Elijah (creator of Cider): "We generally don't recommend re-distributing Cider binaries on GitHub, as Cider is a paid product this could lead to unintended interpretation if people don't read into it all the way ... people combing Google can easily skip this information if SEO decided to bump entries."* (I asked if I should remove the binaries, and he said that he would reccomend it until they had public ones)
+Stated by Elijah (creator of Cider) in the Discord server responding to me posting my repo there: "We generally don't recommend re-distributing Cider binaries on GitHub, as Cider is a paid product this could lead to unintended interpretation if people don't read into it all the way ... people combing Google can easily skip this information if SEO decided to bump entries." I then asked if I should remove the binaries, and he said, "I'd recommend so, you can let people supply them themselves or wait until we provide public ones at some point."
+
 Please don't send Elijah or Cider devs any hate, and I can completely understand their reasoning.
 
 ## 1. Install Git

@@ -48,6 +48,10 @@ checker() {
         sh apk.sh
 
     elif [ $pm = 8 ]; then
+        cd ./xbps
+        sh xbps.sh
+
+    elif [ $pm = 9 ]; then
         echo "This script currently does not support any other distros :("
         echo "If you would like us to add support, create an issue with the request tag!"
         echo "Have a nice day!"

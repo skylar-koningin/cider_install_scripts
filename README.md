@@ -28,7 +28,8 @@ This step is required only for Windows and macOS users. Linux users using apt, d
 
 - https://taproom.cider.sh
 
-*Requested by Elijah (creator of Cider). Please do not host or distribute Cider binaries.*
+*Stated by Elijah (creator of Cider): "We generally don't recommend re-distributing Cider binaries on GitHub, as Cider is a paid product this could lead to unintended interpretation if people don't read into it all the way ... people combing Google can easily skip this information if SEO decided to bump entries."*
+Please don't send Elijah or Cider devs any hate, and I can completely understand their reasoning.
 
 ## 1. Install Git
 
@@ -39,13 +40,13 @@ This step is required only for Windows and macOS users. Linux users using apt, d
 - zypper: `sudo zypper install git`
 - pacman: `sudo pacman -S git`
 - xbps: `sudo xbps-install git`
-- nix: `nix-env -i git` or add "git" to your configuration.nix
+- nix: `nix-env -i git` (wont work if nix profile has been used), `nix profile install nixpkgs#git`, or add "git" to your configuration.nix
 - eopkg: `sudo eopkg install git`
 
 ## 1.5. Switch to Git Bash (Windows Only)
 
-- Close the terminal
-- Reopen Git Bash from the Git installation (enables `.sh` scripts on Windows)
+- Close Terminal
+- Reopen Terminal, select the arrow near the "+" icon, and select "Git bash" (enables `.sh` scripts on Windows)
 
 ## 2. Clone the Repository
 
@@ -71,6 +72,6 @@ Skylar's Cider Install Scripts is licensed under both the Apache License 2.0 and
 You must comply with both licenses. See the `LICENSE` and `NOTICE` files for full details.
 
 Assets from the Cider Collective (https://cider.sh and https://taproom.cider.sh/assets) are used under their respective open-source licenses.
-**Cider binaries are not included** in this repository and must be downloaded separately as per the project's guidelines.
+**Cider binaries are not included** in this repository and must be downloaded separately as per Elijah's request.
 
 No affiliation or endorsement by Cider or the Cider Collective is implied.

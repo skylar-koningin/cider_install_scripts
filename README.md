@@ -22,7 +22,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 
 # How to Install and Use
 
-## 0. Download the binaries from taproom.cider.sh
+## 0. Download the binaries from https://taproom.cider.sh
 
 This step is required only for Windows and macOS users. Linux users using apt, dnf, zypper, or pacman can skip this step, but it's recommended for consistency.
 

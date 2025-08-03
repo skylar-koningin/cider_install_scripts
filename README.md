@@ -26,6 +26,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - Alpine Linux
 - Gentoo (glibc and musl)
 - FreeBSD
+- NixOS (it works, i just need it recoded into a flake)
 
 # How to Install and Use
 

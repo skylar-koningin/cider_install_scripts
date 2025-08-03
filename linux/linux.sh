@@ -10,7 +10,8 @@ package_manager() {
     echo "5. nix"
     echo "6. eopkg"
     echo "7. apk"
-    echo "8. other"
+    echo "8. xbps"
+    echo "9. other"
     read -p "Select a package manager (choose 0 to abort): " pm
 }
 

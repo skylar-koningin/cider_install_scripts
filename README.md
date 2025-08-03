@@ -40,7 +40,6 @@ Please don't send Elijah or Cider devs any hate, and I can completely understand
 - dnf: `sudo dnf install git`
 - zypper: `sudo zypper install git`
 - pacman: `sudo pacman -S git`
-- xbps: `sudo xbps-install git`
 - nix: `nix-env -i git` (wont work if nix profile has been used), `nix profile install nixpkgs#git`, or add "git" to your configuration.nix
 - eopkg: `sudo eopkg install git`
 

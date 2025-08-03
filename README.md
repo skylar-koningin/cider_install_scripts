@@ -34,7 +34,7 @@ Please don't send Elijah or Cider devs any hate, and I can completely understand
 
 ## 1. Install Git
 
-- Windows: `winget install git`
+- Windows: `winget install git.git`
 - MacOS: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git`
 - apt: `sudo apt install git`
 - dnf: `sudo dnf install git`

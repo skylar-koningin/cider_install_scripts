@@ -5,6 +5,10 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 ## Credits
 the Cider icon used in any non-apt, dnf, zypper, or pacman based linux distros is downloaded from https://taproom.cider.sh/assets and is licensed under a copyleft license
 
+## License
+This code is dual-licensed under Apache 2.0 and BSD 3-Clause. If you use this code, you must comply with both licenses.
+`SPDX-License-Identifier: Apache-2.0 AND BSD-3-Clause`
+
 # Current OS Support
 - Windows (Tested on Windows 11)
 - MacOS Intel (Tested on MacOS Sequioa)

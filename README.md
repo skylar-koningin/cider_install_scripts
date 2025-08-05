@@ -4,6 +4,9 @@ This is not a free way to use Cider — you must already have a license to use i
 
 For Cider devs and legal: I am not sharing a way to use Cider for free and I recognize that Cider is owned by you wonderful people. I am making this mainly for myself because I like to distrohop and I want a quick way to install it. The only reason I'm uploading it to GitHub is because I feel that some people would also find it useful.
 
+# Our Discord Server
+https://discord.gg/yeEnG5ADpY
+
 # Current OS Support
 
 - Windows (Tested on Windows 11)
@@ -26,7 +29,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 - Alpine Linux
 - Gentoo (glibc and musl)
 - FreeBSD
-- NixOS (it works, i just need it recoded into a flake)
+- NixOS (it works, I just need it recoded into a flake)
 
 # How to Install and Use
 

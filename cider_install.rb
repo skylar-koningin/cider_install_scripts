@@ -33,5 +33,6 @@ def checker(os)
   end
 end
 
+system("clear")
 os = operating_system()
 checker(os)

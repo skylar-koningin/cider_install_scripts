@@ -26,5 +26,6 @@ def checker(cpu)
   end
 end
 
+system("clear")
 cpu = mac_cpu()
 checker(cpu)

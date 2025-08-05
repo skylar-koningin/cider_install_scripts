@@ -48,5 +48,6 @@ def checker(pm)
   end
 end
 
+system("clear")
 pm = package_manager()
 checker(pm)

@@ -48,7 +48,7 @@ Please don't send Elijah or Cider devs any hate, and I can completely understand
 - dnf: `sudo dnf install git ruby`
 - eopkg: `sudo eopkg install git ruby`
 - nix: `nix-env -i git ruby` (wont work if nix profile has been used), `nix profile install nixpkgs#git nixpkgs#ruby`, or add "git" and "ruby" to your configuration.nix
-- pacman: `sudo pacman -S git`
+- pacman: `sudo pacman -S git ruby`
 - zypper: `sudo zypper install git ruby`
 
 ## 1.5. Switch to Git Bash (Windows Only)

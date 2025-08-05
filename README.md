@@ -32,7 +32,7 @@ For Cider devs and legal: I am not sharing a way to use Cider for free and I rec
 
 ## 0. Download the binaries from https://taproom.cider.sh
 
-Linux users using apt, dnf, zypper, or pacman can skip this step, but it's recommended not to for consistency.
+Linux users using apt, dnf, pacman, or zypper can skip this step, but it's recommended not to reduce the chance of errors.
 
 ### Explanation for this step:
 
@@ -40,16 +40,16 @@ Stated by Elijah (creator of Cider) in the Discord server responding to me posti
 
 Please don't send Elijah or Cider devs any hate, and I can completely understand their reasoning.
 
-## 1. Install Git
+## 1. Install Git and Ruby
 
-- Windows: `winget install git.git`
-- MacOS: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git`
-- apt: `sudo apt install git`
-- dnf: `sudo dnf install git`
-- zypper: `sudo zypper install git`
+- Windows: `winget install Git.Git RubyInstaller.Ruby`
+- MacOS: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install git ruby`
+- apt: `sudo apt install git ruby`
+- dnf: `sudo dnf install git ruby`
+- eopkg: `sudo eopkg install git ruby`
+- nix: `nix-env -i git ruby` (wont work if nix profile has been used), `nix profile install nixpkgs#git nixpkgs#ruby`, or add "git" and "ruby" to your configuration.nix
 - pacman: `sudo pacman -S git`
-- nix: `nix-env -i git` (wont work if nix profile has been used), `nix profile install nixpkgs#git`, or add "git" to your configuration.nix
-- eopkg: `sudo eopkg install git`
+- zypper: `sudo zypper install git ruby`
 
 ## 1.5. Switch to Git Bash (Windows Only)
 
@@ -66,7 +66,7 @@ Please don't send Elijah or Cider devs any hate, and I can completely understand
 
 ## 4. Run the Installer
 
-`sh cider_install.sh`
+`ruby cider_install.rb`
 
 ## 5. Finish Setup
 

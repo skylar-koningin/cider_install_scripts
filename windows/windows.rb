@@ -1,3 +1,4 @@
+puts "Selected Windows..."
 require 'fileutils'
 system("curl.exe https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.18/windowsdesktop-runtime-8.0.18-win-x64.exe")
 system("windowsdesktop-runtime-8.0.18-win-x64.exe")

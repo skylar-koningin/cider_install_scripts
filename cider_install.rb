@@ -11,15 +11,12 @@ end
 def checker(os)
   case os
   when 1
-    puts "Selected Windows..."
     Dir.chdir("./windows")
     system("powershell.exe -File .\\windows.ps1")
   when 2
-    puts "Selected MacOS..."
     Dir.chdir("./macos")
     system("ruby macos.rb")
   when 3
-    puts "Selected Linux..."
     Dir.chdir("./linux")
     system("ruby linux.rb")
   when 4

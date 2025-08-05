@@ -27,5 +27,6 @@ def checker(cpu)
 end
 
 system("clear")
+puts "Selected MacOS..."
 cpu = mac_cpu()
 checker(cpu)

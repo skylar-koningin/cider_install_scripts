@@ -49,5 +49,6 @@ def checker(pm)
 end
 
 system("clear")
+puts "Selected Linux..."
 pm = package_manager()
 checker(pm)

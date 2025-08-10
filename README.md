@@ -79,7 +79,7 @@ After installation, open Cider, sign in to your Apple account, and enjoy.
 
 ## Licensing
 
-Skylar's Cider Install Scripts is licensed under both the Apache License 2.0 and the BSD 3-Clause License.
+Cider Install Scripts are licensed under both the Apache License 2.0 and the BSD 3-Clause License.
 You must comply with both licenses. See the `LICENSE` and `NOTICE` files for full details.
 
 Assets from the Cider Collective (https://cider.sh and https://taproom.cider.sh/assets) are used under their respective open-source licenses.

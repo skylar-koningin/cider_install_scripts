@@ -11,7 +11,7 @@ https://discord.gg/yeEnG5ADpY
 
 - Windows (Tested on Windows 11)
 - MacOS Intel (Tested on macOS Sequoia)
-- MacOS Silicon (Untested (Due to my lack of a Silicon Mac, for now), but same code as Intel version)
+- MacOS Silicon (Untested (Due to my school not allowing me to install stuff on my Macbook (I'll own it when I graduate in 2029)), but same code as Intel version)
 - apt-based distros (Tested on Debian 13 and Linux Mint; also works on ChromeOS with the "Linux development environment")
 - dnf-based distros (Tested on Fedora 42 and RHEL 10)
 - zypper-based distros (Tested on openSUSE Tumbleweed)
